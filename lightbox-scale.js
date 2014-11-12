@@ -1,10 +1,10 @@
-// JavaScript Document
 /**
 * Easy Lightboxish
-* This checks all image on the page, if the images 
-* natural width is larger than its parent width it
-* adds a lightbox wrapper to the img.
+* This checks all images on the page with the scaleBox class,
+* if the images natural width is larger than its parent width 
+* it adds a lightbox wrapper to the img.
 */
+
 $("img.scaleBox").each(function() {
     var image = $(this);
     var imageUrl = $(this).attr('src');
